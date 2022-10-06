@@ -20,8 +20,9 @@ const AllProduct = () => {
             <div className='store-container'>
                 <div className="product-container">
                     {
+                        // products.length &&
                         products.map(product => <SingleProduct
-                            key={product}
+                            key={product.id}
                             product={product}
                         ></SingleProduct>)
                     }
