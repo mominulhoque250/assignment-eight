@@ -2,15 +2,26 @@
     width: 300px;
     height: 510px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 8px;
     position: relative;
+    margin-bottom: 15px;
+
 }
 
 .product img {
     height: 286px;
     width: 286px;
     border-radius: 8px;
+    margin: 7px;
 
+}
+
+.product-info {
+    margin: 0 14px;
+}
+
+.product-info p {
+    margin-bottom: 0;
 }
 
 .product-name {
@@ -18,6 +29,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
+    margin-top: 7px;
+
 }
 
 .btn-cart {
@@ -25,7 +38,7 @@
     background-color: #FFE0B3;
     border: none;
     border-radius: 0px 0px 8px 8px;
-
+    /* position: absolute; */
     bottom: 0px;
 
 }
